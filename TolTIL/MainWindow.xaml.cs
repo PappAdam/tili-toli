@@ -20,9 +20,31 @@ namespace TolTIL
     /// </summary>
     public partial class MainWindow : Window
     {
+        Button[,] imgMat = new Button[4, 4];
+        Button imgToSwapWith = null;
         public MainWindow()
         {
             InitializeComponent();
+            for (int i = 0; i < 4; i++)
+            {
+                for (int j = 0; j < 4; j++)
+                {
+                    imgMat[i, j] = new Button();
+                    imgMat[i, j].Content = i * 4 + j;
+                    imgMat[i, j].MouseLeftButtonDown += new MouseButtonEventHandler(OnImgClick);
+                    Grid.SetColumn(imgMat[i, j], i);
+                    Grid.SetRow(imgMat[i, j], j);
+                    GRTili.Children.Add(imgMat[i, j]);
+                }
+            }
+        }
+
+        private void OnImgClick(object sender, MouseButtonEventArgs e)
+        {
+            if (imgToSwapWith != null)
+            {
+                
+            }
         }
     }
 }
