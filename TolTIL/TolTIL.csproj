@@ -7,4 +7,42 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Images\jfk1.png" />
+    <None Remove="Images\jfk10.png" />
+    <None Remove="Images\jfk11.png" />
+    <None Remove="Images\jfk12.png" />
+    <None Remove="Images\jfk13.png" />
+    <None Remove="Images\jfk14.png" />
+    <None Remove="Images\jfk15.png" />
+    <None Remove="Images\jfk16.png" />
+    <None Remove="Images\jfk2.png" />
+    <None Remove="Images\jfk3.png" />
+    <None Remove="Images\jfk4.png" />
+    <None Remove="Images\jfk5.png" />
+    <None Remove="Images\jfk6.png" />
+    <None Remove="Images\jfk7.png" />
+    <None Remove="Images\jfk8.png" />
+    <None Remove="Images\jfk9.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\jfk1.png" />
+    <Resource Include="Images\jfk10.png" />
+    <Resource Include="Images\jfk11.png" />
+    <Resource Include="Images\jfk12.png" />
+    <Resource Include="Images\jfk13.png" />
+    <Resource Include="Images\jfk14.png" />
+    <Resource Include="Images\jfk15.png" />
+    <Resource Include="Images\jfk16.png" />
+    <Resource Include="Images\jfk2.png" />
+    <Resource Include="Images\jfk3.png" />
+    <Resource Include="Images\jfk4.png" />
+    <Resource Include="Images\jfk5.png" />
+    <Resource Include="Images\jfk6.png" />
+    <Resource Include="Images\jfk7.png" />
+    <Resource Include="Images\jfk8.png" />
+    <Resource Include="Images\jfk9.png" />
+  </ItemGroup>
+
 </Project>
